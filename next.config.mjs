@@ -1,7 +1,6 @@
 import {withSentryConfig} from '@sentry/nextjs';
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: "export", // to give you the output folder if you wanna deploy it
 };
 
 export default withSentryConfig(nextConfig, {
