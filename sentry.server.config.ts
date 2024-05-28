@@ -11,6 +11,7 @@ Sentry.init({
   
   // Correct placement of the telemetry option
   telemetry: false,
+  options.telemetry: false,
 
   // Uncomment the line below to enable Spotlight (https://spotlightjs.com)
   // spotlight: process.env.NODE_ENV === 'development',
