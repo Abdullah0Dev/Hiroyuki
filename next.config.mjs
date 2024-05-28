@@ -7,7 +7,7 @@ const nextConfig = {
 export default withSentryConfig(nextConfig, {
 // For all available options, see:
 // https://github.com/getsentry/sentry-webpack-plugin#options
-
+telemetry: false,
 org: "dev-yhp",
 project: "javascript-nextjs",
 
