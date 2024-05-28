@@ -25,7 +25,7 @@ export function ModeToggle() {
 
   return (
     <a href="https://t.me/dx0000" target="_blank" rel="noopener noreferrer">
-    <Image src="https://static.vecteezy.com/system/resources/previews/023/986/562/non_2x/telegram-logo-telegram-logo-transparent-telegram-icon-transparent-free-free-png.png"
+    <Image alt="telegram" src="https://static.vecteezy.com/system/resources/previews/023/986/562/non_2x/telegram-logo-telegram-logo-transparent-telegram-icon-transparent-free-free-png.png"
      className="   text-white-100 w-8 h-8 opacity-45 duration-300 hover:opacity-90" />
   </a>
 
