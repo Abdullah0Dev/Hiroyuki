@@ -4,7 +4,7 @@ import { testimonials } from "@/data";
 import { cn } from "@/lib/utils";
 import { log } from "console";
 import React, { useEffect, useState } from "react";
-
+import Image from "next/image";
 export const InfiniteMovingCards = ({
   items,
   direction = "left",
@@ -122,7 +122,7 @@ export const InfiniteMovingCards = ({
               <div className="relative z-20 mt-6 flex flex-row items-center">
                 {/* add this div for the profile img */}
                 <div className="me-3">
-                     <img className="rounded-full w-16 h-16"  src={item.img} alt="profile" />
+                    <Image alt="profile" className="rounded-full w-16 h-16"  src={item.img} alt="profile" />
                 </div>
                 <span className="flex flex-col gap-1">
                   {/* change text color, font-normal to font-bold, text-xl */}
