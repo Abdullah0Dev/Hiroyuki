@@ -10,7 +10,7 @@ Sentry.init({
   debug: false,
   
   // Correct placement of the telemetry option
-  telemetry: false,
+ 
   options.telemetry: false,
 
   // Uncomment the line below to enable Spotlight (https://spotlightjs.com)
