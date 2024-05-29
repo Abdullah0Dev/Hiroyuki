@@ -38,7 +38,7 @@ const Hero = () => {
         <div
           // chnage the bg to bg-black-100, so it matches the bg color and will blend in
           className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100
-         bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
+         bg-white-100 [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
         />
       </div>
 
@@ -60,11 +60,11 @@ const Hero = () => {
        
             <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
               Hi! I&apos;m{" "}
-              <span className="text-[#d5cce6] cursor-[url(https://cdn-icons-png.freepik.com/512/9135/9135965.png)] highlighted font-bold">HIROYUKI</span>, a
+              <span className="text-[#d5cce6] cursor-[url(https://cdn-icons-png.freepik.com/512/9135/9135965.png)] font-bold">HIROYUKI</span>, a
               Python Developer based in Japan.
             </p>
          
-          <a href="#about">
+          <a href="#projects">
             <MagicButton
               title="Show my work"
               icon={<FaLocationArrow />}
