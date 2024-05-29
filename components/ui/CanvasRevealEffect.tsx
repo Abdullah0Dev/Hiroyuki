@@ -306,3 +306,4 @@ interface ShaderProps {
   };
   maxFps?: number;
 }
+ 
