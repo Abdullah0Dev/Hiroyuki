@@ -110,35 +110,35 @@ export const testimonials = [
       "Working with Hiroyuki was fantastic. He really knows his stuff and is super reliable. Hiroyuki made our website shine!",
     name: "Abdullah",
     title: "CEO of BrightWave Solutions",
-    img: "https://randomuser.me/api/portraits/med/men/32.jpg",
+    img: "/feedback_1.jpg",
   },
   {
     quote:
       "Hiroyuki was great to work with. He always delivered on time and exceeded our expectations. Highly recommend him!",
     name: "Liam Martinez",
     title: "Marketing Manager at NextGen Media",
-    img: "https://randomuser.me/api/portraits/med/men/71.jpg",
+    img: "/feedback_2.jpg",
   },
   {
     quote:
       "Hiroyuki is a true professional. His dedication and passion for his work are evident in everything he does. We love our new site!",
     name: "Noah John",
     title: "Founder of EcoTech Innovations",
-    img: "https://randomuser.me/api/portraits/med/men/42.jpg",
+    img: "/feedback_3.jpg",
   },
   {
     quote:
       "Hiroyuki brought our vision to life with ease. He’s talented, punctual, and a joy to work with. Our project couldn’t have gone smoother.",
     name: "Ethan Smith",
     title: "Product Manager at CloudSync",
-    img: "https://randomuser.me/api/portraits/med/men/75.jpg",
+    img: "/feedback_4.jpg",
   },
   {
     quote:
       "Teaming up with Hiroyuki was a great experience. His skills and enthusiasm made all the difference. Our website looks amazing!",
     name: "Adam Johnson",
     title: "Creative Director at PixelPerfect Designs",
-    img: "https://randomuser.me/api/portraits/med/men/52.jpg",
+    img: "/feedback_5.jpg",
   },
 ];
 
