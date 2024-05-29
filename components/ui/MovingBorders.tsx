@@ -133,7 +133,7 @@ export const MovingBorder = ({
           transform,
         }}
       >
-        {children}
+        {children} 
       </motion.div>
     </>
   );
