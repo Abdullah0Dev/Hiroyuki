@@ -1,9 +1,10 @@
 "use client";
 
 import { FaLocationArrow } from "react-icons/fa6";
-import Image from "next/image";
+
 import { projects } from "@/data";
 import { PinContainer } from './ui/Pin'
+import Image from "next/image";
 
 const RecentProjects = () => {
   return (
@@ -14,10 +15,10 @@ const RecentProjects = () => {
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
         {projects.map((item) => (
-          <a key={item.id} href={"https://" + item.link} target="_blank" rel="noopener noreferrer">
+          <a href={"https://" + item.link} target="_blank" rel="noopener noreferrer">
           <div
             className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
-            
+            key={item.id}
           >
             <PinContainer
               title={item.link}
@@ -25,26 +26,25 @@ const RecentProjects = () => {
             >
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 <div
-                  className="relative w-full h-full overflow-hidden lg:rounded-3xl"
-                  style={{ backgroundColor: "#13162D" }}
+                  className="relative bg-white-200 dark:bg-[#13162D] w-full h-full overflow-hidden lg:rounded-3xl"
+                   
                 >
-                  <Image src="/bg.png" alt="bgimg" />
+                  <img  src="/bg.png" alt="bgimg" />
                 </div>
-                <Image
+                <img
                   src={item.img}
                   alt="cover"
                   className="z-10 absolute bottom-0"
                 />
               </div>
 
-              <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
+              <h1 className="font-bold  lg:text-2xl md:text-xl text-base line-clamp-1">
                 {item.title}
               </h1>
 
               <p
-                className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
-                style={{
-                  color: "#BEC1DD",
+                className="lg:text-xl text-gray-500 dark:text-[#BEC1DD] lg:font-normal font-light text-sm line-clamp-2"
+                style={{ 
                   margin: "1vh 0",
                 }}
               >
@@ -56,12 +56,12 @@ const RecentProjects = () => {
                   {item.iconLists.map((icon, index) => (
                     <div
                       key={index}
-                      className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
+                      className="border border-white/[.2] rounded-full dark:bg-black bg-white-200 lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
                       style={{
                         transform: `translateX(-${5 * index + 2}px)`,
                       }}
                     >
-                      <Image src={icon} alt="icon5" className="p-2" />
+                      <img src={icon} alt="icon5" className="p-2" />
                     </div>
                   ))}
                 </div>
