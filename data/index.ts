@@ -217,7 +217,7 @@ export const socialMedia = [
   {
     id: 2,
     link: "https://x.com/ikedahiroshi517",
-    img: "/twit.svg",
+    img: "/x.png",
   },
   {
     id: 3,
