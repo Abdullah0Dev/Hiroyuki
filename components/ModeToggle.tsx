@@ -40,26 +40,4 @@ export function ModeToggle() {
       </button>
   );
 }
-/**
- *     <button
-      className=" flex rounded-full justify-center items-center h-10 w-10 bg-[#5c626d] dark:bg-transparent dark:hover:bg-[#111936] hover:text-accent-foreground"
-       onClick={() =>
-         theme === "dark" ? setTheme("light") : setTheme("dark")
-       }
-    > 
-      {/* {theme === "dark" ? (
-        <Sun className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all" />
-      ) : (
-        <Moon className="h-[1.2rem]  text-white-100  w-[1.2rem] rotate-0 scale-100 transition-all" />
-      )}   
-      </button>
-      //   <a href="https://t.me/dx0000" target="_blank" rel="noopener noreferrer">
-      //     <img src="https://static.vecteezy.com/system/resources/previews/023/986/562/non_2x/telegram-logo-telegram-logo-transparent-telegram-icon-transparent-free-free-png.png"
-      //      className="h-[1.2rem]  text-white-100  w-[1.2rem] rotate-0 scale-100 transition-all" />
-      //   </a>
-      // </button>
-          <button className=" flex rounded-full justify-center items-center h-10 w-10 duration-300 bg-[#5c626d] dark:bg-transparent dark:hover:bg-[#111936] hover:text-accent-foreground">
-        <a href="https://t.me/dx0000" target="_blank" rel="noopener noreferrer">
-          <FaLocationArrow className="   text-white-100 w-5 h-5 opacity-45  hover:opacity-90" />
-        </a>
- */
+
