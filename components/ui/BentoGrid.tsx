@@ -52,30 +52,32 @@ export const BentoGridItem = ({
   spareImg?: string;
 }) => {
   const leftLists = [
-    "ReactJS",
-    "Express",
-    "Typescript",
-    "Solidity",
-    "Web3.js",
-    "Node.js",
-    "MongoDB",
-    "Docker",
-    "AWS",
-    "Python"
+    "React Native",
+    "React.js",
+    "API Integration",
+    "CSS",
+    "JavaScript",
+    "TypeScript",
+    "TailwindCSS",
+    "Reanimated",
+    "Expo",
+    "Android Studio"
   ];
   
+  
   const rightLists = [
-    "VueJS",
-    "NuxtJS",
-    "GraphQL",
-    "ReactJS",
     "Express",
-    "Typescript",
-    "TensorFlow",
-    "Kubernetes",
-    "Google Cloud",
-    "PyTorch"
+    "MongoDB",
+    "GraphQL",
+    "Node.js",
+    "OpenAI API",
+    "JWT",
+    "REST API",
+    "AWS",
+    "TTS",
+    "Google Cloud"
   ];
+  
   
 
   const [copied, setCopied] = useState(false);
@@ -90,7 +92,7 @@ export const BentoGridItem = ({
   };
 
   const handleCopy = () => {
-    const text = "hiroyukikumazawa.jp@gmail.com";
+    const text = "abdullahdev001@gmail.com";
     navigator.clipboard.writeText(text);
     setCopied(true);
   };
@@ -112,8 +114,8 @@ export const BentoGridItem = ({
       }
     >
       {/* add img divs */}
-      <div className={`${id === 6 && "flex justify-center"} h-full`}>
-        <div className="w-full h-full absolute">
+      <div className={`${id === 6 && "flex justify-center"} ${id === 1 && " dark:opacity-100 opacity-50"} h-full `}>
+        <div className="w-full  h-full absolute">
           {img && (
             <img
               src={img}
