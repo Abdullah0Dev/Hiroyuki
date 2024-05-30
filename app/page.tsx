@@ -3,8 +3,7 @@
 import { Approach, Clients, Experience, Footer, Hero, RecentProjects } from "@/components";
 import Grid from "@/components/Grid";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
-import { FaHome } from "react-icons/fa";
-import { navItems } from "@/data";
+ import { navItems } from "@/data";
 // overflow-clip to hide the bottom bar
 export default function Home() {
   return (
@@ -14,7 +13,7 @@ export default function Home() {
         navItems={navItems}
         />
         {/* hero section */}
-        <Hero /> 
+        <Hero />   
         {/* grid section */}
         <Grid /> 
         <RecentProjects /> 
