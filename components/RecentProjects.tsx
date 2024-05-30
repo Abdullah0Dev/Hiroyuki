@@ -15,13 +15,13 @@ const RecentProjects = () => {
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
         {projects.map((item) => (
-          <a   key={item.id} href={"https://" + item.link} target="_blank" rel="noopener noreferrer">
+          <a href={"https://" + item.link} target="_blank" rel="noopener noreferrer">
           <div
             className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
-          
+            key={item.id}
           >
             <PinContainer
-              title={item.link}
+              title={" github.com"}
               href={"https://" + item.link}
             >
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
