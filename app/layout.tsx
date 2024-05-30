@@ -2,14 +2,15 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
+import Image from "next/image"; // Import the Image component
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Hiroyuki | A python Developer",
-  description: "Experienced Web & Blockchain Engineer | Recently engaged in hands on AI | Committed to clean, scalable code | Skilled in solo & team environments.",
+  title: "Abdullah | A Mobile Engineer",
+  description: "Experienced Full Stack Mobile Development With React Native.",
 };
-
+ 
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -24,7 +25,9 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          {children}
+          <main>
+            {children}
+          </main>
         </ThemeProvider>
       </body>
     </html>
