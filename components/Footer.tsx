@@ -16,7 +16,7 @@ const Footer = () => {
           Reach out to me today and let&apos;s discuss how I can help you
           achieve your goals.
         </p>
-        <a href="mailto:hiroyukikumazawa.jp@gmail.com">
+        <a href="mailto:abdullahdev001@gmail.com">
           <MagicButton
             title="Let's get in touch"
             icon={<FaLocationArrow />}
@@ -26,7 +26,7 @@ const Footer = () => {
       </div>
       <div className="flex mt-16 bg-[url(/footer-grid.svg)] md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light">
-          Copyright © 2024 Hiroyuki 
+          Copyright © 2024 Abdullah 
         </p>
 
         <div className="flex items-center mt-3 md:gap-3 gap-6">
