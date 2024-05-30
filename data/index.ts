@@ -8,7 +8,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "I focus on working closely with clients and keeping communication open.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,7 +18,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "I'm very flexible with time zones.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -38,7 +38,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Tech lover, crazy about development.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -47,9 +47,9 @@ export const gridItems = [
     spareImg: "/b4.svg",
   },
 
-  {
+  { 
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building a A Soccer App",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -59,7 +59,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "Hey, want to team up on a project?",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -72,70 +72,70 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "earth.com",
+    title: "BeanScene - Coffee Chop App",
+    des: "Explore an array of coffee delights tailored to your taste buds.",
+    img: "/p1.png",
+    iconLists: ["/re.svg", "/lottie.png", "/ts.svg", "/redux.png", "/storage.png"],
+    link: "github.com/Abdullah0Dev/Coffee-Shop-app",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "yoom.com",
+    title: "Dora - Video Sharing App",
+    des: "Unlock seamless video sharing with friends, powered by a full-stack solution.",
+    img: "/p2.jpg",
+    iconLists: ["/node.png", "/tail.svg", "/re.svg", "/jwt.png", "/redux.png"],
+    link: "github.com/Abdullah0Dev/dora_full_stack",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "ai-img.com",
+    title: "Memories - Share Your Events Easily",
+    des: "Experience real-time event sharing at your fingertips.",
+    img: "/p3.jpg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/node.png", "/redux.png"],
+    link: "github.com/Abdullah0Dev/memories",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "apple.com",
-  },
+    title: "Movia - Trending, Upcoming Movies",
+    des: "Discover the latest, upcoming, and newly added movies with ease.",
+    img: "/p4.jpg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/redux.png", "/api.png"],
+    link: "github.com/Abdullah0Dev/movie-app",
+  }, 
 ];
 
 export const testimonials = [
   {
     quote:
-      "Working with Hiroyuki was fantastic. He really knows his stuff and is super reliable. Hiroyuki made our website shine!",
-    name: "Abdullah",
+      "Working with Abdullah was fantastic. He really knows his stuff and is super reliable. Abdullah made our Application shine!",
+    name: "Mohammed",
     title: "CEO of BrightWave Solutions",
     img: "/feedback_1.jpg",
   },
   {
     quote:
-      "Hiroyuki was great to work with. He always delivered on time and exceeded our expectations. Highly recommend him!",
+      "Abdullah was great to work with. He always delivered on time and exceeded our expectations. Highly recommend him!",
     name: "Liam Martinez",
     title: "Marketing Manager at NextGen Media",
     img: "/feedback_2.jpg",
   },
   {
     quote:
-      "Hiroyuki is a true professional. His dedication and passion for his work are evident in everything he does. We love our new site!",
+      "Abdullah is a true professional. His dedication and passion for his work are evident in everything he does. We love our new site!",
     name: "Noah John",
     title: "Founder of EcoTech Innovations",
     img: "/feedback_3.jpg",
   },
   {
     quote:
-      "Hiroyuki brought our vision to life with ease. He’s talented, punctual, and a joy to work with. Our project couldn’t have gone smoother.",
+      "Abdullah brought our vision to life with ease. He’s talented, punctual, and a joy to work with. Our project couldn’t have gone smoother.",
     name: "Ethan Smith",
     title: "Product Manager at CloudSync",
     img: "/feedback_4.jpg",
   },
   {
     quote:
-      "Teaming up with Hiroyuki was a great experience. His skills and enthusiasm made all the difference. Our website looks amazing!",
+      "Teaming up with Abdullah was a great experience. His skills and enthusiasm made all the difference. Our Application looks amazing!",
     name: "Adam Johnson",
     title: "Creative Director at PixelPerfect Designs",
     img: "/feedback_5.jpg",
@@ -180,15 +180,15 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Full Stack Dev",
+    desc: "Played a role in developing both the backend and frontend of a mobile platform with React Native and Node.js, boosting its interactivity.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
     title: "Mobile App Dev - Upwork",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    desc: "developed and Improve  mobile apps for both iOS & Android platforms using React Native.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
@@ -211,17 +211,17 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
-    link: "https://github.com/hiroyukikumazawa/",
+    link: "https://github.com/abdullah0Dev/",
     img: "/git.svg",
   },
   {
     id: 2,
-    link: "https://x.com/ikedahiroshi517",
-    img: "/x.png",
+    link: "https://wa.me/+201011245872?text=Hello%20Abdullah!",
+    img: "/whatsapp.webp",
   },
   {
     id: 3,
-    link: "https://www.linkedin.com/in/ikedahiroshi517/",
+    link: "https://www.linkedin.com/in/abdullah1dev/",
     img: "/link.svg",
   },
 ];
